@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Main Quill library -->
+       
+        <script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+
+        <!-- Theme included stylesheets -->
+        <link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+       
+
+        <!-- Core build with no theme, formatting, non-essential modules -->
+           <title>Document</title>
+</head>
+<body>
+    
+    
+    <!-- <div class="form-group">
+          <label for="formGroupExampleInput2">Another label</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+    </div> -->
+        
+        
+        
+        
+        <div class="container">
+            <h1>Add a Blog </h1>
+            
+            <div class="form-group">
+                <label for="formGroupExampleInput">Title Of Blog </label>
+                <input type="text" class="form-control" id="name" placeholder="Example input">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Date</label>
+                <input type="text" class="form-control" id="date" placeholder="Example input">
+            </div>
+            
+
+
+
+        <!-- <div class="row">
+          <div class="col test alert alert-info" role="alert"">
+            <input maxlength="30" type="text"  value="" tabindex="105" placeholder="Enter your Blog name">
+          </div>
+        </div> -->
+      
+      <div class="row">
+        <div class="col-lg">
+          <!-- <input maxlength="30" type="text" value="" tabindex="105" placeholder="Enter your Blog name"> -->
+          <div class="editor">
+            
+                <div id="toolbox"></div>
+                <div id="editor"></div>
+                <div>
+                    <button class="clickme btn btn-primary">Submit</button>
+                </div>
+            </div>
+    
+    
+             </div>
+        </div>
+</div>
+
+        
+    
+</body>
+<style>
+    .editor{
+        height: 200px;
+    }
+    .row{
+        padding-top: 10px;
+    }
+    .test{
+        border: 1px solid green;
+    }
+</style>
+<script src="/editor.js"></script>
+<script src="/event.js"></script>
+</html>
